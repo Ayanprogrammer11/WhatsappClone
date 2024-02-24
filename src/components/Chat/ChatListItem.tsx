@@ -115,11 +115,11 @@ export default function ChatListItem({
 					</div>
 					{lastMessage?.createdAt && (
 						<div className="flex flex-col items-end justify-center space-y-2">
-							<span className="text-right text-xs font-normal text-[#54656f] dark:text-[#aebac1]">
+							<span className="text-right text-xs italic text-[#54656f] dark:text-[#aebac1]">
 								{formatMessageDate(lastMessage.createdAt)}
 							</span>
 							{unseenMessages > 0 && conversation.id !== conversationId && !hasSeen && (
-								<span className="flex h-4 w-4 animate-pulse items-center justify-center rounded-full bg-green-600 text-[8px] text-white">
+								<span className="flex h-6 w-6 animate-pulse items-center justify-center rounded-full bg-green-600 text-[12px] text-white">
 									{unseenMessages}
 								</span>
 							)}

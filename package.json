@@ -79,7 +79,7 @@
 		"@radix-ui/react-slot": "^1.0.2",
 		"@types/react": "^18.2.8",
 		"axios": "^1.4.0",
-		"bcrypt": "^5.1.0",
+		"bcrypt": "^5.0.0",
 		"class-variance-authority": "^0.6.1",
 		"cloudinary": "^1.39.0",
 		"clsx": "^1.2.1",
